@@ -112,22 +112,18 @@ body {
   padding-bottom: 14px;
   text-decoration: none;
   height: 24px;
+  transition: 1s;
 }
 .linkdiv {
   margin-top: 42px;
 }
 .linki:hover {
-  transition: 1s; /* ამ ფერზე რატომღაც არ მუშაობს  */
+   /* ამ ფერზე რატომღაც არ მუშაობს  */
   background: var(
     --Gradient-1,
     linear-gradient(204deg, #ff6a3a 0%, #ff527b 100%)
   );
   box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
-}
-.aa {
-  width: 100px;
-  height: 100px;
-  background-color: red;
 }
 .mobileimage{
   display: none;
