@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background: var(--Pale-Navy, #36384d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 504px;
+  height: 520px;
+  border-radius: 36px;
+  background: #fff;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  padding-left: 64px;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+  margin-top: 48px;
+}
+.header {
+  color: var(--Dark-Navy, #242742);
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 40px;
+}
+.text {
+  max-width: 372px;
+  width: 100%;
+  height: 72px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin-top: 24px;
+}
+span {
+  color: var(--Dark-Navy, #242742);
+  font-weight: 700;
+}
+button {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  width: 376px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--Dark-Navy, #242742);
+  margin-top: 40px;
+  border: none;
+}
+button:hover {
+  transition: 1s;
+  background: var(
+    --Gradient-1,
+    linear-gradient(204deg, #ff6a3a 0%, #ff527b 100%)
+  );
+  box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
+  border: none;
+}
+@media (max-width: 380px){
+  body{
+    background-color: white;
+    height: auto;
+  }
+  .container{
+    box-shadow: none;
+    margin-top: 101px;
+    padding-left: 24px;
+    
+  }
+  .text{
+    width: 327px;
+  }
+  button{
+    margin-top: 262px;
+    width: 327px;
+  height: 56px;
+  }
+}
